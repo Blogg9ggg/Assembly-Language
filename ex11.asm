@@ -15,6 +15,7 @@ outputsg segment
 outputsg ends
 
 codesg segment
+
 start:	mov ax,inputsg
 		mov ds,ax
 		mov si,0
